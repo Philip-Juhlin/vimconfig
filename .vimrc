@@ -6,7 +6,7 @@ syntax on
 colorscheme desert
 
 "set jk to esc
-inoremap jk <ESC>
+inoremap jj <ESC>
 " Show line numbers
 set number
 
