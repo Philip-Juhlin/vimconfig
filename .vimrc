@@ -3,7 +3,7 @@
 syntax on
 
 " Use a modern color scheme
-colorscheme desert
+" colorscheme desert
 
 "set jk to esc
 inoremap jj <ESC>
@@ -39,13 +39,18 @@ set splitright
 set splitbelow
 
 " Enable clipboard integration
-set clipboard=unnamedplus
+" set clipboard=unnamedplus
 
 " Begin vim-plug section
 call plug#begin('~/.vim/plugged')
 
 " Install coc.nvim from the release branch
+
+" JavaScript Plugins
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
+Plug 'dense-analysis/ale'
+Plug 'pangloss/vim-javascript'
+Plug 'prettier/vim-prettier'
 
 call plug#end()
 
